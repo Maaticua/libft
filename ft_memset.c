@@ -1,30 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalnum.c                                       :+:      :+:    :+:   */
+/*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: macaruan <macaruan@student.42.fr>          +#+  +:+       +#+        */
+/*   By: maati <maati@student.42.fr>                #+#  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/12 12:30:12 by macaruan          #+#    #+#             */
-/*   Updated: 2024/11/12 12:34:13 by macaruan         ###   ########.fr       */
+/*   Created: 2024-11-14 12:58:19 by maati             #+#    #+#             */
+/*   Updated: 2024-11-14 12:58:19 by maati            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int	ft_isalnum(int i)
+void    *ft_memset(void *p, int value, size_t count)
 {
-	if ((i >= 65 && i <= 90) || (i >= 97 && i <= 122)
-		|| (i >= 48 && i <= 57))
-		return (1);
-	else
-		return (0);
-	return (0);
-}
+    char    *start;
 
-int	main(void)
-{
-	char c = '5';
-	printf("%d\n", ft_isalnum(c));
-	return (0);
+    if (b == NULL)
+        return (NULL);
+    
+    start = b;
+    while (count)
+    {
+        *start = value;
+        start++;
+        count--;
+    }
+    return (b);
 }

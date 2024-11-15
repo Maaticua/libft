@@ -21,9 +21,9 @@ int	ft_isdigit(int i)
 	return (0);
 }
 
-// int	main(void)
-// {
-// 	char c = '9';
-// 	printf("%d\n", ft_isdigit(c));
-// 	return (0);
-// }
+int	main(void)
+{
+	char c = '9';
+	printf("%d\n", ft_isdigit(c));
+	return (0);
+}
